@@ -1,0 +1,133 @@
+/*---------------------------------------
+ *                                      *
+ *       Add Your Custom CSS Here       *
+ *                                      *
+ ---------------------------------------*/
+ 
+ /* index */
+ 
+.riwayat-order {
+    font-size: 12px;
+    color: #090a19;
+    margin-bottom: 5px;
+    font-family: monospace, monospace;
+}
+
+.footer-menu img {
+    margin:0 5px 10px 0;
+} 
+
+@media (min-width: 992px) {
+    .riwayat-order {
+        font-size: 18px;
+    }
+    .row.custom-paddingx {
+        margin-left: 90px;
+    }
+}
+
+@media (max-width: 768px) {
+ .riwayat-order {
+border-bottom: 1px solid #ddd;
+}
+}
+
+ /* blog */
+.do-text {
+    margin-top:-40px;
+    text-align:center;
+    font-size: 45px;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 2px; 
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+@media (min-width: 992px) {
+ .do-text {
+    margin-top:-120px;
+ }
+}
+
+@media (max-width: 768px) {
+ .do-text {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 32px;
+    }
+}
+
+
+@media (max-width: 360px) {
+ .do-text {
+    margin-top:-80px;
+    margin-bottom: -70px;
+    font-size: 24px;
+    letter-spacing: 1px;
+ }
+}
+
+@media (max-width: 280px) {
+ .do-text {
+    font-size: 20px;
+    letter-spacing: 0px;
+ }
+}
+
+/* whatsapp icon float */
+@media (max-width: 768px) {
+    .float-wa {
+    	position:fixed;
+    	width:60px;
+    	height:60px;
+    	bottom:30px;
+    	right:30px;
+    	background-color:#25d366;
+    	color:#FFF;
+    	border-radius:50px;
+    	text-align:center;
+        font-size:30px;
+    	box-shadow: 2px 2px 3px #999;
+        z-index:100;
+    }
+    
+    .my-float-wa {
+    	margin-top:16px;
+    } 
+    
+     .my-float-wa a {
+    	color:#FFF;
+    }
+}
+
+@media (min-width: 768px) {   
+    .float-wa {
+       display: none;
+    }
+ }
+ 
+/* gambar kebablas */
+
+@media (max-width: 1200px) { 
+    .gambar-artikel {
+        max-width: 900px;
+    }
+}
+    
+@media (max-width: 992px) {
+    .gambar-artikel {
+        max-width: 800px;
+    }
+}
+
+@media (max-width: 768px) { 
+    .gambar-artikel {
+        max-width: 588px;
+    }
+}
+    
+@media (max-width: 480px) {
+    .gambar-artikel {
+        max-width: 300px;
+    }
+}
